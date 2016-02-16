@@ -1,0 +1,34 @@
+****************************************************************************************************************
+****																										****
+****	Guidance 내용																						****
+****																										****
+****	This document is typically a flowchart or similar depiction of the relationships among the major	****
+****	functional units in the Software Device, including relationships to hardware and to data flows		****
+****	such as networking. It is usually not necessary to include every function call and module in this	****
+****	document; however, there should be sufficient information to allow for review of the				****
+****	organization of the software relative to the functionality and to the intended use of the Software	****
+****	Device. For Moderate and Major Level of Concern devices, detailed information such as state			****
+****	diagrams may be useful to clearly depict the relationships among the software functional units. If	****
+****	the Architecture Design Chart is included in another document such as the SRS then you should		****
+****	include in your submission a statement to that effect and a reference to the location of the		****
+****	Architecture Design Chart in the submission.														****
+****																										****
+****************************************************************************************************************
+
+
+Software architectural design
+	(크게 하나의 diagrams를 놓아서 Diagram을 설명하는 식으로)
+	
+	1. Main Module
+		1.1 통합 관리
+	2. Data base
+		2.1 Image 저장 (JPEG)
+		2.2 CINE 저장 (XPSC)
+	3. Image Processing
+		3.1 Brightness
+		3.2 RGGB
+		3.3 Rotation
+	4. Firmware 
+		4.1 Load to bin file
+		4.2 Data 송/수신 Data
+		4.2 광원 밝기 조절
